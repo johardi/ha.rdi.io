@@ -1,0 +1,14 @@
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix rdfa: <http://www.w3.org/ns/rdfa#> .
+<http://ha.rdi.io/jo> a vcard:Individual;
+  vcard:hasEmail <mailto:josef.hardi@gmail.com>;
+  vcard:fn "Josef Hardi";
+  vcard:hasAddress [ a vcard:Home;
+    vcard:country-name "Indonesia";
+    vcard:locality "Tangerang";
+    vcard:postal-code "15114";
+    vcard:street-address "Jalan Jayapura 19" ];
+  vcard:hasTelephone [ a vcard:Home,
+    vcard:Voice;
+    vcard:hasValue <tel:+6287771286068> ];
+  vcard:nickname "Jo" .
